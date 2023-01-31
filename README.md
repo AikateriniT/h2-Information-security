@@ -20,6 +20,11 @@ By determining how exposed an account, an app, a website will be, we can assess 
 
 
 ___________________________________________________________________________________________________________________________________________________________________
+b) Injected. Solve WebGoat:
+A1 Injection (intro)
+
+I will write the report soon :)
+___________________________________________________________________________________________________________________________________________________________________
 a) Sequel. Solve SQLZoo:
 0 SELECT basics
 2 SELECT from World, from first subtask to 5 "France, Germany, Italy"

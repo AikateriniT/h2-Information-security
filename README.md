@@ -110,3 +110,10 @@ Task13:
 The test was also done:
 
 ![quiz](https://user-images.githubusercontent.com/113516460/215805012-8dc6e050-cffa-4403-a4f9-93cb2bea6158.JPG)
+
+SOURCES
+_______________________________________________________________________________________________________________________________________________________________
+https://www.redhat.com/en/topics/security/what-is-cve
+https://owasp.org/Top10/A04_2021-Insecure_Design/
+https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/
+https://owasp.org/Top10/A03_2021-Injection/

@@ -12,9 +12,26 @@ OWASP: OWASP 10 2021
 ___________________________________________________________________________________________________________________________________________________________________
 A05:2021 – Security Misconfiguration
 
-The article is focusing on the structural and architectural faults that lead to security risks, and makes clear the need for threat modelling and more secure design. The insecure design is more common than we might believe it is, and every year leads to massive data leaks and account compromisation. As a rule we can learn that an insecure design can not be fixed by a secure implementation, as by definition it needs security controls that we never created. Factors such as insufficient business risk profiling lead to the failure of a system that we are unable to determine the level of security needed.
+        - The article is focusing on the structural and architectural faults that lead to security risks, and makes clear the need 
+        for threat modelling and more secure design. The insecure design is more common than we might believe it is, and every year 
+        leads to massive data leaks and account compromisation. As a rule we can learn that an insecure design can not be fixed by a 
+        secure implementation, as by definition it needs security controls that we never created. Factors such as insufficient business 
+        risk profiling lead to the failure of a system that we are unable to determine the level of security needed.
 
-By determining how exposed an account, an app, a website will be, we can assess the importance and the requirements of the security system that will be implemented. When we mention secure design by term we mean the methology that constantly evaluates threats and 
+        - By determining how exposed an account, an app, a website will be, we can assess the importance and the requirements of the 
+        security system that will be implemented. Secure design by term is the methodology to constantly evaluate the threats and prevent 
+        any known attack, but also to document all the vulnerabilities.
+        
+        - Prevention is the greatest work, hence our entire career will be successful if we are able to work proactively and not after the 
+        "damage is done". By integrating a security language, by establishing and using secure libraries, by segregating tier layers on the 
+        system and the network and by threat modelling for critical processes we are able to keep our systems safe. 
+        
+A06:2021 – Vulnerable and Outdated Components
+
+        Vulnerable components are a known great issue of our days that concern outdated systems which are unable to update, test and assess 
+        the risk. 
+        
+        
 
 
 
@@ -113,7 +130,7 @@ The test was also done:
 
 SOURCES
 _______________________________________________________________________________________________________________________________________________________________
-https://www.redhat.com/en/topics/security/what-is-cve
-https://owasp.org/Top10/A04_2021-Insecure_Design/
-https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/
-https://owasp.org/Top10/A03_2021-Injection/
+        https://www.redhat.com/en/topics/security/what-is-cve
+        https://owasp.org/Top10/A04_2021-Insecure_Design/
+        https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/
+        https://owasp.org/Top10/A03_2021-Injection/

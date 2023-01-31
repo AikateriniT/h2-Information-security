@@ -95,3 +95,6 @@ Task13:
 
 ![13](https://user-images.githubusercontent.com/113516460/215804586-23225f58-deae-427b-ad9b-fa671efcdda8.JPG)
 
+The test was also done:
+
+![quiz](https://user-images.githubusercontent.com/113516460/215805012-8dc6e050-cffa-4403-a4f9-93cb2bea6158.JPG)

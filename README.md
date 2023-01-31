@@ -20,14 +20,17 @@ ________________________________________________________________________________
 
 0. basics is done with ease, and the learning outcome is:
 WHERE: 
+
     SELECT population FROM world 
     WHERE name = 'Germany'
 
 IN:
+
     SELECT name, population FROM world
     WHERE name IN ('Sweden', 'Norway', 'Denmark');
     
 BETWEEN:
+
     SELECT name, area FROM world
     WHERE area BETWEEN 200000 AND 250000
     

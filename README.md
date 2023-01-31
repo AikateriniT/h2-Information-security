@@ -44,10 +44,22 @@ A03:2021 – Injection
         Vulnerabilities and data breaches happen when user-supplied data is not filtered, validated, or sanitized from the application. 
         Hostile data is used within object rational mapping, and is directly used or concatenated. 
         Parts of prevention include automated testing, using a safe API, 
+        
+Darknet Diaries: Ep126 REvil.
+
+        I chose the episode with the REvil ransomware. The story begins with a wild scam story in the US, trying to show us how easy 
+        it is for a scam to emerge out of nowhere. It takes very little energy and a twisted mind, of course with the main goal being 
+        the money.
+        
+        REvil ransomware emerged back in 2019, from another variant named GandCrab, and GandCrab is a group that cybersecurity specialists
+        call big game hunting. 
+        GandCrab is the name of a malware that encrypts the contents of the harddrive and posts a message asking for an amount of money in
+        order to provide the user with a password to decrypt the drive. GandCrab, was a ransomware that didn't target normal house users but
+        was targeting big companies with big revenue, resulting big money. GandCrab though still needed a way in 
 ___________________________________________________________________________________________________________________________________________________________________
 b) Injected. Solve WebGoat:
-A1 Injection (intro)
-
+A1 Injection (intro)                     
+ 
 I will write the report soon :)
 ___________________________________________________________________________________________________________________________________________________________________
 a) Sequel. Solve SQLZoo:
@@ -142,3 +154,6 @@ ________________________________________________________________________________
         https://owasp.org/Top10/A04_2021-Insecure_Design/
         https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/
         https://owasp.org/Top10/A03_2021-Injection/
+        https://darknetdiaries.com/
+        https://darknetdiaries.com/transcript/126/
+        

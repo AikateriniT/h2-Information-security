@@ -39,12 +39,11 @@ A06:2021 – Vulnerable and Outdated Components
         Sensible practices will be to keep our components updated and obtain them only from the official sources over secure links. Also
         we must remove all the unused dependencies and unnecessary features. 
         
-        
-        
+A03:2021 – Injection
 
-
-
-
+        Vulnerabilities and data breaches happen when user-supplied data is not filtered, validated, or sanitized from the application. 
+        Hostile data is used within object rational mapping, and is directly used or concatenated. 
+        Parts of prevention include automated testing, using a safe API, 
 ___________________________________________________________________________________________________________________________________________________________________
 b) Injected. Solve WebGoat:
 A1 Injection (intro)

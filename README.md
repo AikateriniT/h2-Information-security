@@ -3,13 +3,20 @@ h2 Goat This is the homework 2 for information security lesson
 
 _________________________________________________________________________________________________________________________________________________________________
 x) Read and summarize (This subtask x does not require tests with a computer. Some bullets per article is enough for your summary, feel free to write more if you like)
-1. OWASP: OWASP 10 2021
-2. A05:2021-Security Misconfiguration
-3. A06:2021-Vulnerable and Outdated Components
-4. A03:2021-Injection
-5. Any episode from Darknet Diaries.
-- Pick a CVE, and briefly explain it & why it matters
+OWASP: OWASP 10 2021
+1. A05:2021-Security Misconfiguration
+2. A06:2021-Vulnerable and Outdated Components
+3. A03:2021-Injection
+4. Any episode from Darknet Diaries.
+5. Pick a CVE, and briefly explain it & why it matters
 ___________________________________________________________________________________________________________________________________________________________________
+A05:2021 – Security Misconfiguration
+
+The article is focusing on the structural and architectural faults that lead to security risks, and makes clear the need for threat modelling and more secure design. The insecure design is more common than we might believe it is, and every year leads to massive data leaks and account compromisation. As a rule we can learn that an insecure design can not be fixed by a secure implementation, as by definition it needs security controls that we never created. Factors such as insufficient business risk profiling lead to the failure of a system that we are unable to determine the level of security needed.
+
+By determining how exposed an account, an app, a website will be, we can assess the importance and the requirements of the security system that will be implemented. When we mention secure design by term we mean the methology that constantly evaluates threats and 
+
+
 
 
 ___________________________________________________________________________________________________________________________________________________________________

@@ -22,14 +22,23 @@ A05:2021 – Security Misconfiguration
         security system that will be implemented. Secure design by term is the methodology to constantly evaluate the threats and prevent 
         any known attack, but also to document all the vulnerabilities.
         
-        - Prevention is the greatest work, hence our entire career will be successful if we are able to work proactively and not after the 
-        "damage is done". By integrating a security language, by establishing and using secure libraries, by segregating tier layers on the 
-        system and the network and by threat modelling for critical processes we are able to keep our systems safe. 
+        - Prevention is the greatest work, hence our entire career will be successful if we are able to work proactively and not after 
+        the "damage is done". By integrating a security language, by establishing and using secure libraries, by segregating tier layers
+        on the system and the network and by threat modelling for critical processes we are able to keep our systems safe. 
         
 A06:2021 – Vulnerable and Outdated Components
 
-        Vulnerable components are a known great issue of our days that concern outdated systems which are unable to update, test and assess 
-        the risk. 
+        Vulnerable components are a known great issue of our days that concern outdated systems which are unable to update, test and 
+        assess the risk. 
+        
+        Vulnerability reasons:
+        The OS is outdated and i missing critical patches, or it is unsupported. The clients or the servers are not scanned regularly 
+        for threats. In general if we are not aware of the current threats, or if our practices do not align with the correct use of 
+        the company that produces the componets, there is a great chance to be victimized. 
+        
+        Sensible practices will be to keep our components updated and obtain them only from the official sources over secure links. Also
+        we must remove all the unused dependencies and unnecessary features. 
+        
         
         
 

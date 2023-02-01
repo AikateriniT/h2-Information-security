@@ -44,26 +44,27 @@ A03:2021 – Injection
         Vulnerabilities and data breaches happen when user-supplied data is not filtered, validated, or sanitized from the application. 
         Hostile data is used within object rational mapping, and is directly used or concatenated. 
         Parts of prevention include automated testing, using a safe API, 
-        
+___________________________________________________________________________________________________________________________________________________________        
 Darknet Diaries: Ep126 REvil.
+__________________________________________________________________________________________________________________________________________________________________
 
-        I chose the episode with the REvil ransomware. The story begins with a wild scam story in the US, trying to show us how easy 
-        it is for a scam to emerge out of nowhere. It takes very little energy and a twisted mind, of course with the main goal being 
-        the money.
+I chose the episode with the REvil ransomware. The story begins with a wild scam story in the US, trying to show us how easy 
+it is for a scam to emerge out of nowhere. It takes very little energy and a twisted mind, of course with the main goal being 
+the money.
         
-        REvil ransomware emerged back in 2019, from another variant named GandCrab, and GandCrab is a group that cybersecurity specialists
-        call big game hunting. 
-        GandCrab is the name of a malware that encrypts the contents of the harddrive and posts a message asking for an amount of money in
-        order to provide the user with a password to decrypt the drive. GandCrab, was a ransomware that didn't target normal house users but
-        was targeting big companies with big revenue, resulting big money. GandCrab though still needed a way in for these big companies
+REvil ransomware emerged back in 2019, from another variant named GandCrab, and GandCrab is a group that cybersecurity specialists
+call big game hunting. 
+GandCrab is the name of a malware that encrypts the contents of the harddrive and posts a message asking for an amount of money in
+order to provide the user with a password to decrypt the drive. GandCrab, was a ransomware that didn't target normal house users but
+was targeting big companies with big revenue, resulting big money. GandCrab though still needed a way in for these big companies
         and the fact that there are people around the net willing to sell their credentials to give access to big companies that they used to 
         work with is unbelievable. 
         GandCrab eventually, evolved to ransomware as a service. You could buy the ransomware online in order to extort a company that you 
         know and have access to, and then get your share from the extorted money. In the darkm forums it seemed that the origin of the ransom-
         ware was russian. The US has no jurisdiction in Russia in order to chase or arrest cyber-criminals. And one day out of nowhere, it 
         disappeared mentioninh to their website that the company retires. But they came back bigger, with the ransomware maleware REvil.
-        
-        REvil in the first phase was doing what all malware is doing, changing the wallpaper, delete the backups, etc. The bizzare to this 
+
+REvil in the first phase was doing what all malware is doing, changing the wallpaper, delete the backups, etc. The bizzare to this 
         case was that the ransomware was making a language check and if the computer was located in a country of the ex-Soviet Union the 
         ransomware would simply exit. Ransomware REvil was in a way the best malware developed. The group decided after GandCrab that they 
         will no longer operate the attacks but they will sell it as a service. The customer would break into a company and then drop the REvil

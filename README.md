@@ -55,12 +55,13 @@ Darknet Diaries: Ep126 REvil.
         call big game hunting. 
         GandCrab is the name of a malware that encrypts the contents of the harddrive and posts a message asking for an amount of money in
         order to provide the user with a password to decrypt the drive. GandCrab, was a ransomware that didn't target normal house users but
-        was targeting big companies with big revenue, resulting big money. GandCrab though still needed a way in 
+        was targeting big companies with big revenue, resulting big money. GandCrab though still needed a way in, for these big companies
+        and the fact that there are people around the net willing to sell their credentials to give access 
 ___________________________________________________________________________________________________________________________________________________________________
 b) Injected. Solve WebGoat:
 A1 Injection (intro)                     
  
-I will write the report soon :)
+Task is done. I will write the report soon :)
 ___________________________________________________________________________________________________________________________________________________________________
 a) Sequel. Solve SQLZoo:
 0 SELECT basics

@@ -183,10 +183,29 @@ Task 11: COMPROMISING CONFIDENTIALITY WITH STRING SQL INJECTION
         Employee name: John Smith 
         TAN: 3SL99A
         You want to view all the salary data from all the employees. 
-        Use variables for the names and TANs in order to achieve it. a
+        Use variables for the names and TANs in order to achieve it. 
+        
 ![Capture](https://user-images.githubusercontent.com/113516460/216978160-d437b9fa-c58a-4684-bf7d-6aade3e12b31.JPG)
  
- 
+Task 12: COMPROMISING INTEGRITY WITH QUERY CHAINING
+
+        Tobi and Bob seem to earn more money. Better go and change John's salary so that he earns the most.
+        
+        For creating a query chain we must use the ; symbol. So, in order to compromise the integrity (UPDATE) of the 
+        database:
+        User: Smith
+        TAN: 3SL99A; UPDATE employees FROM salary=15000000 WHERE auth_tan ='3SL99A' 
+![12](https://user-images.githubusercontent.com/113516460/216981070-d25129ec-c852-46bc-b058-1c14917337ab.JPG)
+
+Task 13: COMPROMISING AVAILABILITY
+
+        In this task we will compromise availability.
+        There are many ways to compromise availability, such as deleting an account or changing the password. This way the actual owner will not be able to access it anymore. Another way is to revoke access-rights from the admins or any other users so that nobody has access to the database. 
+        Since we changed the salary of John employee our traces are left behind in the access_log table. Let's go and delete it.
+        
+        UPDATE'; DROP TABLE access_log --
+![13](https://user-images.githubusercontent.com/113516460/216982511-29d2cefb-5135-4a5c-b830-ced0fd475ac5.JPG)
+
         
         
 Task is done. I will write the report soon :)

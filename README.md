@@ -142,7 +142,9 @@ Task: We have to add a column "Phone" to the already existing table. So, by taki
         ALTER TABLE employees ADD phone varchar(20)
 
 Task 5: What is DCL?
-        Data control language, is used to create priviledges to allow users to access and manipulate a database. By SQL injection which uses DCL type, the perpetrator violates the confidentiality (grant) and the availability (revoke)(Unwanted people could grand themselves admin priviledges or revoke the admin rights from an administrator.)
+        Data control language, is used to create priviledges to allow users to access and manipulate a database. By SQL injection which 
+        uses DCL type, the perpetrator violates the confidentiality (grant) and the availability (revoke)(Unwanted people could grand 
+        themselves admin priviledges or revoke the admin rights from an administrator.)
         
         DCL commands are used for providing security to database objects
         GRANT - allow users access priviledges to the database
@@ -157,6 +159,36 @@ Task: Grant the usergroup "UnauthorizedUser" the right to alter tables.
         GRANT ALTER TABLE 
         TO UnauthorizedUser
 
+Task 9: String SQL injection:
+
+        The query in the code builds a dynamic query as seen in the previous example. The query is build by concatenating strings making 
+        it susceptible to string SQL injection. 
+        
+        "SELECT * FROM user_data WHERE first_name = 'John' AND last_name = ' " + lastName + "'";
+        
+        THE CORRECT QUERY WILL BE:
+        SELECT * FROM user_data WHERE first_name = 'John' AND last_name = '' or '1'='1;
+        which translates to 
+        SELECT * FROM user_data WHERE first_name = 'John' AND last_name = 'Smith or 1=1;
+Task 10: Numeric SQL injection:
+
+        The query in the code builds a dynamic query by concatenating a number making it susceptible to Numeric SQL Injection:
+        "SELECT * FROM user_data WHERE login_count = " + Login_Count + "AND userid = " + User_ID;
+        Try to retrieve the data from the input fields.
+        for the login_count we use a random number lets say 9, and for the user_id we add the SQL query, to retrieve the data. 
+        user or 1=1
+        
+Task 11: COMPROMISING CONFIDENTIALITY WITH STRING SQL INJECTION 
+        
+        Employee name: John Smith 
+        TAN: 3SL99A
+        You want to view all the salary data from all the employees. 
+        Use variables for the names and TANs in order to achieve it. a
+![Capture](https://user-images.githubusercontent.com/113516460/216978160-d437b9fa-c58a-4684-bf7d-6aade3e12b31.JPG)
+ 
+ 
+        
+        
 Task is done. I will write the report soon :)
 ___________________________________________________________________________________________________________________________________________________________________
 a) Sequel. Solve SQLZoo:

@@ -152,7 +152,10 @@ Task 5: What is DCL?
         GRANT CREATE TABLE
         TO operator;
         This statement gives all users of the operator-role the priviledge to create new tables in the databese.
+Task: Grant the usergroup "UnauthorizedUser" the right to alter tables.
 
+        GRANT ALTER TABLE 
+        TO UnauthorizedUser
 
 Task is done. I will write the report soon :)
 ___________________________________________________________________________________________________________________________________________________________________

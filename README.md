@@ -71,8 +71,21 @@ REvil in the first phase was doing what all malware is doing, changing the wallp
         to infect the network. AFter that was the REvil group's job to do the rest.
 ___________________________________________________________________________________________________________________________________________________________________
 b) Injected. Solve WebGoat:
+
 A1 Injection (intro)                     
- 
+
+As an introduction to the subject we see that this lesson described what SQL is and how we can manipulate it in order to perform tasks that were not the original intent of the developer. 
+After the task we will be able to demonstrate knowledge on:
+        DML, DDL and DCL
+        String SQL injection 
+        Numeric SQL injection 
+        Violation of the CIA triad.
+What is SQL?
+        It is a standardized programming language which is used for managing relational databases and performing various operations on the data in them. As a database we name the collection of data which is organized into rows, columns, tables and it is indexed to make it easier to find information. The three main protection goals in information security are confidentiality, integrity and availability, are considered the three most crucial components of information security. 
+
+
+
+
 Task is done. I will write the report soon :)
 ___________________________________________________________________________________________________________________________________________________________________
 a) Sequel. Solve SQLZoo:
